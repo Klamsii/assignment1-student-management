@@ -61,7 +61,7 @@ public class Student {
         return gpa >= 3.5;
     }
 
-    @Override
+    
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
@@ -72,3 +72,4 @@ public class Student {
                 '}';
     }
 }
+
