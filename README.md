@@ -6,7 +6,7 @@ The goal of the project is to apply core Java fundamentals and Object-Oriented P
 
 The system manages student data, calculates academic statistics, and demonstrates interaction between multiple classes using arrays of objects.
 
----
+
 
 ## Learning Objectives
 - Apply Java fundamentals (data types, loops, conditions, arrays)
@@ -16,7 +16,7 @@ The system manages student data, calculates academic statistics, and demonstrate
 - Practice clean and maintainable Java code
 - Organize a project using Git and GitHub
 
----
+
 
 ## Class Descriptions
 
@@ -39,7 +39,7 @@ The `Student` class represents a student with personal and academic information.
 
 ![Student Class](docs/screenshots/student.jpg)
 
----
+
 
 ### Course Class
 The `Course` class represents a university course and demonstrates **composition** by storing an array of `Student` objects.
@@ -57,31 +57,23 @@ The `Course` class represents a university course and demonstrates **composition
 
 ![Course Class](docs/screenshots/course.jpg)
 
----
+
 
 ## UML Class Diagram
 The UML class diagram below illustrates the structure of the system and the composition relationship between the `Course` and `Student` classes.
 
 ![UML Diagram](docs/uml-diagram/uml.png)
 
----
+
 
 ## Main Program (Driver)
 The `Main` class serves as the driver program and demonstrates the full functionality of the system.
 
 ![Main Program](docs/screenshots/main.jpg)
 
----
+Navigate to the src directory in the terminal. Compile all Java files: javac *.java Run the main program: java Main
 
 ## Program Output
 The screenshot below shows the successful execution of the program.
 
 ![Program Output](docs/screenshots/ass-1_run_code.jpg)
-
----
-
-## How to Compile and Run
-
-```bash
-javac *.java
-java Main
