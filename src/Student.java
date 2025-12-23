@@ -1,13 +1,11 @@
 public class Student {
 
-    // Private fields (encapsulation)
     private String name;
     private String id;
     private String major;
     private double gpa;
     private int credits;
 
-    // Constructor
     public Student(String name, String id, String major) {
         this.name = name;
         this.id = id;
@@ -16,7 +14,6 @@ public class Student {
         this.credits = 0;
     }
 
-    // Getters and setters
     public String getName() {
         return name;
     }
@@ -61,15 +58,13 @@ public class Student {
         return gpa >= 3.5;
     }
 
-    
+
     public String toString() {
-        return "Student{" +
+        return "Student" +
                 "name='" + name + '\'' +
                 ", id='" + id + '\'' +
                 ", major='" + major + '\'' +
                 ", gpa=" + gpa +
-                ", credits=" + credits +
-                '}';
+                ", credits=" + credits;
     }
 }
-
