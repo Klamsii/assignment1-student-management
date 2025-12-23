@@ -28,7 +28,11 @@ public class Course {
                 count++;
             }
         }
-        return count == 0 ? 0 : sum / count;
+        if (count == 0) {
+            return 0;
+        } else {
+            return sum / count;
+        }
     }
 
     public Student highestCreditStudent() {
@@ -44,7 +48,6 @@ public class Course {
         return top;
     }
 
-    @Override
     public String toString() {
         return "Course{" +
                 "courseName='" + courseName + '\'' +
